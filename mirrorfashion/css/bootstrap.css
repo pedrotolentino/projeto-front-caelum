@@ -5727,6 +5727,10 @@ body.modal-open,
   margin-left: 0;
 }
 
+.form-control:invalid {
+  border: 1px solid #CC0000;
+}
+
 @media screen and (min-width: 768px) {
   .modal-dialog {
     right: auto;
